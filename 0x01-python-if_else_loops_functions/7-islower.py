@@ -1,9 +1,8 @@
-slower.py
-# edgar muhumuza
-
+#!/usr/bin/python3
+# Author - edgar muhumuza
 
 def islower(c):
-    """Check for lowercase characters."""
+    """Function checks for lowercase characters."""
     if ord(c) >= 97 and ord(c) <= 122:
         return True
     else:
