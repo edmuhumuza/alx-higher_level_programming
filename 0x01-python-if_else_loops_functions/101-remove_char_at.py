@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def remove_cahr_at(str, n):
+def remove_char_at(str, n):
     new_str = []
     str_copy = list(str)
     copy = ""
