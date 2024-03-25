@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-# 100-print_tebahpla.py
-# edgar muhumuza
-
-""""Print the alphabet in reverse order alternating upper- and lower-case."""
-i = 0
-for c in range(ord('z'), ord('a') - 1, -1):
-    print("{}".format(chr(c - i)), end="")
-    i = 32 if i == 0 else 0
+x = 1
+for _ in range(122, 96, -1):
+    if x % 2 == 0:
+        print("{:c}".format(_-32), end = "")
+        x = x + 1
+    else:
+        print("{:c}".format(_), end = "")
+        x = x + 1
