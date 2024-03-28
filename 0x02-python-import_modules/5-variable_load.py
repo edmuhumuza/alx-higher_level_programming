@@ -1,9 +1,4 @@
 #!/usr/bin/python3
-# 5-variable_load.py
-# Author Edgar M
-
-if __name__ == "__main__":
-    """Print the value of variable a from variable_load_5."""
-    from variable_load_5 import a
-
-    print(a)
+if __name__ == '__main__':
+    import variable_load_5
+    print(variable_load_5.a)
