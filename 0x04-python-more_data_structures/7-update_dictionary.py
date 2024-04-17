@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def update_dictionary(a_dictionary, key, value):
-    if key in a_dict:
-        a_dict[key] = value
+    if a_dicitionary[key]:
+        a_dictionary[key] = value
     else:
-        a_dict[key] = value
+        a_dictionary[key] = value
