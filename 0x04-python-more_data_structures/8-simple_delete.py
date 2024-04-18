@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
-    try:
-        del a_dictionary[key]
-        return (a_dictionary)
-    except KeyError:
-        return (a_dictionary)
+    if key not  in _dictionary:
+        return a_dictionary
+    else:
+        del(a_dictionary[del])
+        return a_dictionary
